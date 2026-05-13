@@ -1,6 +1,3 @@
-// CryptoMind AI - Groq API Integration
-// Environment Variable: GROQ_API_KEY (Vercel Dashboard এ সেট করুন)
-
 export default async function handler(req, res) {
   // CORS headers
   res.setHeader('Access-Control-Allow-Origin', '*');
